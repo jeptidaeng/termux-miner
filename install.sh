@@ -8,7 +8,7 @@ cd ~/termux-miner
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool
 # Basic *nix build instructions:
 echo "./install.sh"
-if ! ./build.sh ..; then
+if ! ./autogen.sh ..; then
     echo "Error: build-linux-arm.sh configuration failed"
     exit 1
 else
