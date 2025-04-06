@@ -12,15 +12,6 @@ echo "./install.sh"
 if ! ./build-linux-arm.sh ..; then
     echo "Error: build-linux-arm.sh configuration failed"
     exit 1
+
 else
-     build-linux-arm.sh ..
-fi
-# compile
-echo "Compiling now"
-if !  build-linux-arm.sh; then
-    echo "Error: Compiling failed"
-    exit 1
-else
-     echo "start the miner with \"cd ~/termux-miner; ~/cpuminer/cpuminer -c ~/cpuminer/cpuminer-conf.json
-\"."
-fi
+echo "start the miner with \"cd ~/termux-miner; ~/cpuminer/cpuminer -c ~/cpuminer/cpuminer-conf.json\"."
