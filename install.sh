@@ -9,7 +9,7 @@ cd ~/termux-miner
 
 # Basic *nix build instructions:
 echo "./install.sh"
-if !  ..; then
+if !  ./build-linux-arm.sh ..; then
     echo "Error: build-linux-arm.sh configuration failed"
     exit 1
 else
