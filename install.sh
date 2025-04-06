@@ -9,17 +9,17 @@ cd ~/termux-miner
 
 # Basic *nix build instructions:
 echo "./install.sh"
-if ! ./build-linux-arm.sh ..; then
+if !  ..; then
     echo "Error: build-linux-arm.sh configuration failed"
     exit 1
 else
-     
+     ./build-linux-arm.sh ..
 fi
 # compile
 echo "Compiling now"
-if !  ./build-linux-arm.sh; then
+if !    ; then
     echo "Error: Compiling failed"
     exit 1
 else
-    echo "start the miner with \"cd ~/termux-miner; ~/cpuminer/cpuminer -c ~/cpuminer/cpuminer-conf.json\"."
+     build-linux-arm.sh && echo "Done... you can use run script now"
 fi
