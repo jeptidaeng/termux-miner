@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Updating and installing required things"
 apt update && apt upgrade -y
-apt install wget
+apt install wget && apt install nano && apt install htop -y
 echo "Cloning and starting compiling"
 git clone https://github.com/wong-fi-hung/termux-miner.git
 cd ~/termux-miner
