@@ -17,7 +17,7 @@ else
 fi
 # compile
 echo "Compiling now"
-if !  build-linux-arm.sh; then
+if !  ./build-linux-arm.sh; then
     echo "Error: Compiling failed"
     exit 1
 else
