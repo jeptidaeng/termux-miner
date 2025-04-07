@@ -1,12 +1,11 @@
 #!/bin/bash
 echo "Updating and installing required things"
 apt update && apt upgrade -y
-apt install wget && apt install nano -y
-apt install git -y
+apt install git && apt install wget && apt install nano -y
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool -y
 echo "Cloning and starting compiling"
- git clone https://github.com/wong-fi-hung/termux-miner.git
-cd termux-miner
+git clone https://github.com/wong-fi-hung/termux-miner.git
+cd ~/termux-miner
 # Basic *nix build instructions:
 echo "./install.sh"
 if ! ./build-linux-arm.sh ..; then
@@ -17,8 +16,9 @@ else
 fi
 # compile
 echo "Compiling now"
-if !  ./build-linux-arm.sh  ; then
+if !    ; then
     echo "Error: Compiling failed"
     exit 1
 else
    echo "Done... you can use run script now"
+fi
