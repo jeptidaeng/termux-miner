@@ -16,7 +16,7 @@ else
      ./build-linux-arm.sh ..
 fi
 # compile
-echo "Compiling now"
+echo "Make"
 if ! make -j4   ; then
     echo "Error: Compiling failed"
     exit 1
