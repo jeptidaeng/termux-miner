@@ -9,7 +9,7 @@ echo "Cloning and starting compiling"
 git clone https://github.com/wong-fi-hung/termux-miner.git
 cd ~/termux-miner
 # Basic *nix build instructions:
-echo "./install.sh"
+echo "./autogen.sh"
 if ! ./build-linux-arm.sh ..; then
     echo "Error: build-linux-arm.sh configuration failed"
     exit 1
