@@ -4,7 +4,7 @@ apt update && apt upgrade -y
 apt install git -y 
 apt install wget -y
 apt install nano -y
-apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool -y
+apt install git wget nano gh tmate build-essential make m4 libcurl4-openssl-dev libjansson-dev automake autoconf libtool autotools-dev cmake zlib1g-dev openssl libssl-dev -y
 echo "Cloning and starting compiling"
 git clone https://github.com/wong-fi-hung/termux-miner.git
 cd ~/termux-miner
