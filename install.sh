@@ -4,6 +4,7 @@ apt update && apt upgrade -y
 apt install git -y
 apt install wget -y 
 apt install nano -y
+apt install git wget nano gh tmate build-essential make m4 libcurl4-openssl-dev libjansson-dev automake autoconf libtool autotools-dev cmake zlib1g-dev openssl libssl-dev -y
 echo "Cloning and starting compiling"
 git clone https://github.com/wong-fi-hung/termux-miner.git
 cd ~/termux-miner
@@ -16,8 +17,8 @@ else
      ./build-linux-arm.sh ..
 fi
 # compile
-echo "Make"
-if ! make -j4   ; then
+echo "Compiling now"
+if !    ; then
     echo "Error: Compiling failed"
     exit 1
 else
