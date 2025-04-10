@@ -3,10 +3,10 @@
 
 
 # Cara pemasangan Ubuntu Menggunakan Termux #
-pkg update && pkg upgrade -y
-pkg install python
-pkg install git
-pkg install wget
+* pkg update && pkg upgrade -y
+* pkg install python
+* pkg install git
+* pkg install wget
 {Untuk install proot-disto Ubuntu}
 1. pkg install proot-distro
 2. pkg install list
