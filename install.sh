@@ -1,7 +1,10 @@
 #!/bin/bash
-echo "Updating and installing required things"
+# Linux build, optimised for ARM devices
+
+if [ ! -e configure ]; then
+	echo "Creating configure..."
 apt update && apt upgrade -y
-apt install git -y
+apt install git -y 
 apt install wget -y 
 apt install nano -y
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool -y
@@ -14,7 +17,7 @@ if ! ./build-linux-arm.sh ..; then
     echo "Error: build-linux-arm.sh configuration failed"
     exit 1
 else
-     ./build-linux-arm.sh ..
+      ..
 fi
 # compile
 echo "Compiling now"
