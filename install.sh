@@ -1,9 +1,7 @@
 #!/bin/bash
 # Linux build, optimised for ARM devices
-
 if [ ! -e configure ]; then
 echo "Creating configure..."
-apt update && apt upgrade -y
 apt-get install curl git wget nano -y
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool -y
 echo "Cloning and starting compiling"
