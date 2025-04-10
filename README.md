@@ -10,7 +10,9 @@
 * {Untuk install proot-disto Ubuntu}
 1. pkg install proot-distro
 2. pkg install list
-3. Supported distributions (format: name < alias >):
+3. proot-distro install ubuntu
+4. proot-distro login ubuntu
+ * Supported distributions (format: name < alias >):
 
   * Adélie Linux < adelie >
   * Alpine Linux < alpine >
@@ -27,5 +29,4 @@
   * Rocky Linux < rockylinux >
   * Ubuntu (24.04) < ubuntu > <======== pilih yang ini
   * Void Linux < void >
-  4. proot-distro install ubuntu
-  5. proot-distro login ubuntu
+  
