@@ -14,11 +14,10 @@
 </code></pre>
 * {Untuk install proot-disto Ubuntu}
 <pre class="notranslate"><code>
-pkg install proot-distro
+ pkg install proot-distro
  pkg install list
  proot-distro install ubuntu
  </code></pre>
-
 *proot-distro login ubuntu  <==== Untuk login Ubuntu
  Supported distributions (format: name < alias >):
 
