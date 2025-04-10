@@ -7,7 +7,7 @@
 * pkg install python
 * pkg install git
 * pkg install wget
-{Untuk install proot-disto Ubuntu}
+* {Untuk install proot-disto Ubuntu}
 1. pkg install proot-distro
 2. pkg install list
 3. Supported distributions (format: name < alias >):
