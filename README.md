@@ -25,7 +25,7 @@ pkg install wget
   * OpenSUSE < opensuse >
   * Pardus < pardus >
   * Rocky Linux < rockylinux >
-  * Ubuntu (24.04) < ubuntu > <=====
+  * Ubuntu (24.04) < ubuntu > <======== pilih yang ini
   * Void Linux < void >
-  
-4. proot-distro install ubuntu
+  4. proot-distro install ubuntu
+  5. proot-distro login ubuntu
