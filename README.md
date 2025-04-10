@@ -1,7 +1,8 @@
 # CpuMiner STB / UserLand Android / Termux #
-<pre>
+<pre class="notranslate"><code>
  apt update && apt upgrade -y
- curl -o- -k https://raw.githubusercontent.com/jeptidaeng/termux-miner/main/install.sh | bash </pre>
+ curl -o- -k https://raw.githubusercontent.com/jeptidaeng/termux-miner/main/install.sh | bash 
+</code></pre>
 
 
 # Cara pemasangan Ubuntu Menggunakan Termux #
