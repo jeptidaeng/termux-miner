@@ -11,7 +11,7 @@
 1. pkg install proot-distro
 2. pkg install list
 3. proot-distro install ubuntu
-4. proot-distro login ubuntu
+4. proot-distro login ubuntu  <==== Untuk login Ubuntu
  * Supported distributions (format: name < alias >):
 
   * Adélie Linux < adelie >
