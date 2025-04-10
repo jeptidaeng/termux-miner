@@ -28,6 +28,5 @@ pkg install wget
   * Rocky Linux < rockylinux >
   * Ubuntu (24.04) < ubuntu > <=====
   * Void Linux < void >
-
-Install selected one with: proot-distro install <alias>
+  
 4. proot-distro install ubuntu
