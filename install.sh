@@ -2,7 +2,7 @@
 
 set -e
 echo "Updating and installing required things"
-apt install wget
+apt install wget -y
 echo "Cloning and starting compiling"
 git clone https://github.com/wong-fi-hung/termux-miner.git
 cd ~/termux-miner
