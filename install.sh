@@ -7,7 +7,7 @@ echo "Cloning and starting compiling"
 git clone https://github.com/wong-fi-hung/termux-miner.git
 cd ~/termux-miner
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool -y
-# automake
+# build-linux-arm
 echo "Basic *nix build instructions"
 if ! build-linux-arm.sh ..; then
     echo "Error: CMake configuration failed"
