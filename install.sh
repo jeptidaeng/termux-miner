@@ -2,6 +2,7 @@
 
 set -e
 echo "Updating and installing required things"
+apt upgrade -y
 apt install wget cmake
 echo "Cloning and starting compiling"
 git clone https://github.com/wong-fi-hung/termux-miner.git
