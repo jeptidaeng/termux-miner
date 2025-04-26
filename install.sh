@@ -2,13 +2,12 @@
 
 set -e
 echo "Updating and installing required things"
-apt upgrade -y
-apt install wget cmake
+apt install wget
 echo "Cloning and starting compiling"
 git clone https://github.com/wong-fi-hung/termux-miner.git
 cd ~/termux-miner
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool -y
-# cmake
+# automake
 echo "Basic *nix build instructions"
 if ! build-linux-arm.sh ..; then
     echo "Error: CMake configuration failed"
@@ -18,7 +17,7 @@ else
 fi
 # compile
 echo "Compiling now"
-if ! make; then
+if ! automake; then
     echo "Error: Compiling failed"
     exit 1
 else
