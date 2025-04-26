@@ -13,7 +13,7 @@ if ! ./build-linux-arm.sh ..; then
     echo "Error: build configuration failed"
     exit 1
 else
-    build-linux-arm.sh ..
+     ..
 fi
 # compile
 echo "Compiling now"
