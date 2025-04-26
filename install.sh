@@ -10,7 +10,7 @@ apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev
 # build-linux-arm
 echo "Basic *nix build instructions"
 if ! build-linux-arm.sh ..; then
-    echo "Error: CMake configuration failed"
+    echo "Error: build configuration failed"
     exit 1
 else
     ./build-linux-arm.sh ..
